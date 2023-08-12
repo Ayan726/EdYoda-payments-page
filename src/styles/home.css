@@ -1,0 +1,33 @@
+.container{
+    height: 93vh;
+    width: 100vw;
+    display: flex;
+    position: relative;
+    color: white;
+}
+
+.bg{
+    height: 100%;
+    width: 100%;
+    background-color: #537895;
+    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+    z-index: -100;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.left-section {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 3rem;
+}
+
+.right-section{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 5rem;
+}

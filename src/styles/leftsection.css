@@ -1,0 +1,47 @@
+.left-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+.heading-1{
+    width: 68%;
+    margin: 2rem 0;
+    font-size: xx-large;
+    word-wrap: break-word;
+}
+.red-line{
+    height: 0.4rem;
+    width: 6.4rem;
+    background-color: red;
+    position: absolute;
+    top: 1.3rem;
+    left: 1.7rem;
+    border-radius: 2px;
+}
+
+.red-span{
+    position: relative;
+}
+
+.points{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    font-size: 22px;
+    margin-bottom: 1.6rem;
+}
+
+.icon{
+    transform: translateY(5px);
+}
+
+/* utility */
+.blue-text{
+    color: rgb(110, 171, 255);
+}
+
+.bolder{
+    font-weight: bolder;
+}
+
